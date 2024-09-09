@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         // Enlazar el TextView del layout a la variable TV3
         TV3 = (TextView) findViewById(R.id.TV3);
-
+/////////
         // Recibir los datos enviados desde MainActivity
         String dato1 = getIntent().getStringExtra("dato_nombre"); // Nombre ingresado por el usuario
         String dato2 = getIntent().getStringExtra("dato_contraseña"); // Contraseña ingresada
